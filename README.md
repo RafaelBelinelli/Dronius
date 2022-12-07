@@ -1,4 +1,4 @@
-# dronius
+# Dronius
 
 Projeto desenvolvido por alunos do Colégio Técnico de Campinas (COTUCA) como trabalho de conclusão de curso:
 - Rafael Dias - 20153
