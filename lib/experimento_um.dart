@@ -48,7 +48,7 @@ class _WebSocketDroneState extends State<WebSocketDrone> {
 
   channelConnect() {
     try {
-      channel = WebSocketChannel.connect(Uri.parse("ws://localhost:3000"));
+      channel = WebSocketChannel.connect(Uri.parse("ws://192.168.15.22/ws"));
       channel.stream.listen((message) {
         print(message);
         if (!disposed) {
@@ -56,10 +56,10 @@ class _WebSocketDroneState extends State<WebSocketDrone> {
             if (message == "connected") {
               connected = true;
             } else if (message == "subir:success") {
-              print("SUBIUUUSIODAPDPASDAASDJKAS");
+              print("subiu 👍");
               voando = true;
             } else if (message == "descer:success") {
-              print("DESCEUEEUEUUAODISAOIDSA");
+              print("desceu 👍");
               voando = false;
             }
           });
@@ -75,7 +75,7 @@ class _WebSocketDroneState extends State<WebSocketDrone> {
         print(error.toString());
       });
     } catch (_) {
-      print("Erro conectando com o websocket :(");
+      print(_);
     }
   }
 
