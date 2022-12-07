@@ -7,7 +7,7 @@ class MenuLateral extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.only(top: 20, left: 20, bottom: 600),
+        padding: const EdgeInsets.only(top: 20, left: 20, bottom: 510),
         child: Container(
           decoration: const BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(20)),

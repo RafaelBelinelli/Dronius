@@ -35,7 +35,7 @@ class ExplicacaoUm extends StatelessWidget {
           SizedBox(
             width: MediaQuery.of(context).size.width * 9 / 10,
             child: const Text(
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "Para a explicação abaixo, usaremos os quadricópteros como referência, que são os tipos mais comuns à venda. Eles contam com quatro rotores (chamados popularmente de hélices). O princípio básico de funcionamento de um drone envolve equilíbrio. Enquanto dois desses rotores giram no sentido horário, outros dois giram no sentido anti-horário. Desta forma, há uma compensação de forças que evita que o drone gire descontroladamente ao redor do seu eixo vertical. É preciso uma condição para levantar voo: a força de empuxo gerada pelos rotores ao empurrarem o ar para baixo e, por consequência, serem empurrados para cima. Essa força precisa ser maior do que a da gravidade.",
               style: TextStyle(
                 fontFamily: "VarelaRound",
                 fontSize: 20,

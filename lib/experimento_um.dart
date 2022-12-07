@@ -115,7 +115,7 @@ class _WebSocketDroneState extends State<WebSocketDrone> {
         width: MediaQuery.of(context).size.width * 9 / 10,
         child: const Text(
           "Instruções para realização do experimento:\n\n" +
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Após conectar os dispositivos à internet (instruções na aba de configurações), pressione o botão de iniciar o experimento, e use os botões para controlar a altura do drone.",
           style: TextStyle(
             fontFamily: "VarelaRound",
             fontSize: 20,
